@@ -1,0 +1,25 @@
+{
+  "short_name": "To-do List App",
+  "name": "Plan, Act, Achieve: Get Started Now! 😉..",
+  "icons": [
+    {
+      "src": "logo/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo/list192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo/list.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

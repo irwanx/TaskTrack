@@ -29,10 +29,10 @@ const TypingText = ({ strings }) => {
     }, [textIndex, displayText, strings, typingSpeed]);
 
     return (
-        <>
+        <React.Fragment>
             <h1 className='text-indigo-600 dark:text-indigo-200 text-sm md:text-2xl'>{displayText}</h1>
             <p>TaskTrack add your tasks here</p>
-        </>
+        </React.Fragment>
     )
 };
 

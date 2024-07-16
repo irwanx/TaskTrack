@@ -127,7 +127,7 @@ function App() {
 
   return (
     <div className={`${darkMode ? 'dark' : ''} min-h-screen flex flex-col font-popins`}>
-      <div className="bg-indigo-950 dark:text-gray-50 text-gray-900 sm:bg-gradient-to-r sm:from-indigo-200 sm:via-gray-50 sm:to-indigo-200 sm:dark:from-indigo-800 sm:dark:via-indigo-950 sm:dark:to-indigo-800 sm:dark:text-gray-50 flex-grow">
+      <div className="flex-grow bg-gray-50 dark:bg-indigo-950 dark:text-gray-50 text-gray-900 sm:bg-gradient-to-r sm:from-indigo-200 sm:via-gray-50 sm:to-indigo-200 sm:dark:from-indigo-800 sm:dark:via-indigo-950 sm:dark:to-indigo-800 sm:dark:text-gray-50">
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <div className='text-center pt-6'>
           <TypingText strings={strings} className='text-2xl font-bold mb-4' />
@@ -157,8 +157,8 @@ function App() {
             {error && <ErrorAlert message={error} onClose={handleCloseError} />}
           </div>
         </div>
-        <Footer/>
       </div>
+      <Footer />
     </div>
   );
 }

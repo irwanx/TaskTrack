@@ -2,7 +2,7 @@ import React from 'react';
 
 function SortingAndSearch({ searchTerm, setSearchTerm, sortBy, handleSortBy }) {
     return (
-        <div>
+        <React.Fragment>
             <input
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
@@ -23,7 +23,7 @@ function SortingAndSearch({ searchTerm, setSearchTerm, sortBy, handleSortBy }) {
                     <option value="oldestFirst">Oldest First</option>
                 </select>
             </div>
-        </div>
+        </React.Fragment>
     );
 }
 

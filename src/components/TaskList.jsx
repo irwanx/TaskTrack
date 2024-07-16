@@ -22,7 +22,7 @@ function TaskList({ tasks, deleteTask, toggleComplete, searchTerm, setSearchTerm
                     </>
                 )}
                 {tasks.map((task) => (
-                    <li key={task.id} className={`my-2 p-4 rounded-lg shadow-lg flex justify-between items-center border border-gray-200 dark:text-white dark:bg-indigo-900 text-indigo-900 bg-gray-100`}>
+                    <li key={task.id} className={`my-2 p-4 rounded-lg sm:shadow-lg flex justify-between items-center border border-gray-200 dark:text-white dark:bg-indigo-900 text-indigo-900 bg-gray-100`}>
                         <span className={`${task.completed ? 'line-through' : ''} w-96`}>
                             <h1 className='text-lg font-semibold'>{task.name}</h1>
                             <p className="text-sm text-gray-700 dark:text-gray-300 break-words">{task.text}</p>

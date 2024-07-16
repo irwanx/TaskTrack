@@ -31,8 +31,8 @@ Make sure you have Node.js and npm installed on your machine.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/irwanx/To-Do-List-App.git
-    cd To-Do-List-App
+    git clone https://github.com/irwanx/TaskTrack.git
+    cd TaskTrack
     ```
 
 2. Install the dependencies:
